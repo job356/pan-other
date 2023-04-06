@@ -1,0 +1,64 @@
+.color-picker__item {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    &:hover {
+        border: 3px solid #E09D81;
+    }
+    &_beige {
+        background-color: $color-picker-beige;
+    }
+    &_sky {
+        background: $color-picker-sky;
+    }
+    &_brown {
+        background: $color-picker-brown;
+    }
+    &_swamp {
+        background: $color-picker-swamp;
+    }
+    &_red {
+        background: $color-picker-red;
+    }
+    &_grey {
+        background: $color-picker-light-grey;
+    }
+    &_dark-grey {
+        background: $color-picker-dark-grey;
+    }
+    &_purple {
+        background: $color-picker-purple;
+    }
+}
+
+.product-advantages__pointer {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: $color-picker-beige;
+    &_item-lid {
+        left: 200.61px;
+        top: 99.2px;
+    }
+    &_item-spout {
+        top: 397px;
+        left: 250px;
+    }
+    &_item-coating {
+        top: 519px;
+        left: 268px;
+    }
+    &_item-spatula {
+        top: 107px;
+        right: 102px;
+    }
+    &_item-colander {
+        top: 292px;
+        right: 222px;
+    }
+    &_item-handel{
+        top: 411px;
+        right: 100px;
+    }
+}

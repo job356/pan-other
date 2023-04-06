@@ -419,6 +419,71 @@ html {
   border: none;
 }
 
+.color-picker__item {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.color-picker__item:hover {
+  border: 3px solid #E09D81;
+}
+.color-picker__item_beige {
+  background-color: #E09D81;
+}
+.color-picker__item_sky {
+  background: #748EA1;
+}
+.color-picker__item_brown {
+  background: #B76D47;
+}
+.color-picker__item_swamp {
+  background: #7D836E;
+}
+.color-picker__item_red {
+  background: #C33636;
+}
+.color-picker__item_grey {
+  background: #CDC7B3;
+}
+.color-picker__item_dark-grey {
+  background: #595752;
+}
+.color-picker__item_purple {
+  background: #D3C2CA;
+}
+
+.product-advantages__pointer {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #E09D81;
+}
+.product-advantages__pointer_item-lid {
+  left: 200.61px;
+  top: 99.2px;
+}
+.product-advantages__pointer_item-spout {
+  top: 397px;
+  left: 250px;
+}
+.product-advantages__pointer_item-coating {
+  top: 519px;
+  left: 268px;
+}
+.product-advantages__pointer_item-spatula {
+  top: 107px;
+  right: 102px;
+}
+.product-advantages__pointer_item-colander {
+  top: 292px;
+  right: 222px;
+}
+.product-advantages__pointer_item-handel {
+  top: 411px;
+  right: 100px;
+}
+
 .wrapper {
   max-width: 1340px;
   margin: auto;
@@ -575,6 +640,150 @@ html {
   line-height: 2.6rem;
   margin: 0%;
   color: #4F463F;
+}
+
+.product-preview {
+  padding: 75px 0 140px;
+  background: #FBF6EA;
+}
+
+.product-preview__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 4.8rem;
+  text-align: center;
+  color: #35312E;
+  margin: 0 0 52.8px;
+}
+
+.color-picker {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 45.2px;
+}
+
+.color-picker__item {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.color-picker__item:hover {
+  border: 3px solid #E09D81;
+}
+.color-picker__item_beige {
+  background-color: #E09D81;
+}
+.color-picker__item_sky {
+  background: #748EA1;
+}
+.color-picker__item_brown {
+  background: #B76D47;
+}
+.color-picker__item_swamp {
+  background: #7D836E;
+}
+.color-picker__item_red {
+  background: #C33636;
+}
+.color-picker__item_grey {
+  background: #CDC7B3;
+}
+.color-picker__item_dark-grey {
+  background: #595752;
+}
+.color-picker__item_purple {
+  background: #D3C2CA;
+}
+
+.product-advantages-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.product-advantages {
+  position: relative;
+  width: 721px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(/Assets/img/backgrounds/product-preview.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.product-advantages__left-side, .product-advantages__right-side {
+  width: 207px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-advantages__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #6E635A;
+}
+.product-advantages__text_left-side-top {
+  align-self: center;
+  margin: 83px 0 0;
+}
+.product-advantages__text_left-side-middle {
+  align-self: flex-end;
+  margin: 247px 0 84px;
+}
+.product-advantages__text_left-side-bottom {
+  align-self: center;
+  margin: 0 0 34px;
+}
+.product-advantages__text_right-side-top {
+  align-self: center;
+  margin: 36px 0 0;
+}
+.product-advantages__text_right-side-middle {
+  align-self: center;
+  margin: 217px 0 128px;
+}
+.product-advantages__text_right-side-bottom {
+  align-self: flex-end;
+  margin: 0 0 93.42px;
+}
+
+.product-advantages__pointer {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #E09D81;
+}
+.product-advantages__pointer_item-lid {
+  left: 200.61px;
+  top: 99.2px;
+}
+.product-advantages__pointer_item-spout {
+  top: 397px;
+  left: 250px;
+}
+.product-advantages__pointer_item-coating {
+  top: 519px;
+  left: 268px;
+}
+.product-advantages__pointer_item-spatula {
+  top: 107px;
+  right: 102px;
+}
+.product-advantages__pointer_item-colander {
+  top: 292px;
+  right: 222px;
+}
+.product-advantages__pointer_item-handel {
+  top: 411px;
+  right: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
