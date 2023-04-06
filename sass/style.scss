@@ -2,6 +2,11 @@
 
 //abstracts
 @import "abstracts/constans";
+@import "abstracts/mixins";
 
 //base
 @import "base/base";
+
+//layout
+@import "layout/wrapper";
+@import "layout/header";
