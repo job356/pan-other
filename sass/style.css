@@ -521,4 +521,27 @@ html {
   text-decoration-thickness: 3px;
 }
 
+.partners {
+  padding: 45px 0;
+  background: #F5F1E9;
+}
+
+.partners__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #35312E;
+  margin: 0 0 39.59px;
+}
+
+.partners-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 179px;
+}
+
 /*# sourceMappingURL=style.css.map */
