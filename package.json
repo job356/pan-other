@@ -1,0 +1,23 @@
+{
+  "name": "pan-other",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style" : "sass --watch sass/style.scss sass/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/job356/pan-other.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/job356/pan-other/issues"
+  },
+  "homepage": "https://github.com/job356/pan-other#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
