@@ -1,0 +1,10 @@
+.button__welcome {
+    @include font($size: 1.2rem, $weight: 700, $height: 2rem);
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    padding: 20px 58px;
+    background: #D37657;
+    border-radius: 2px;
+    border: none;
+}

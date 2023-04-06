@@ -405,6 +405,20 @@ html {
   font-size: 10px;
 }
 
+.button__welcome {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2rem;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 20px 58px;
+  background: #D37657;
+  border-radius: 2px;
+  border: none;
+}
+
 .wrapper {
   max-width: 1340px;
   margin: auto;
@@ -473,6 +487,38 @@ html {
   text-transform: uppercase;
   margin: 0%;
   color: #F5F1E9;
+}
+
+.welcome {
+  padding: 168px 0 170px 333px;
+  background-image: url(/Assets/img/backgrounds/welcome-background.jpg);
+  background-repeat: no-repeat;
+}
+
+.welcome-content__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  text-transform: uppercase;
+  color: #35312E;
+  margin: 0%;
+}
+
+.welcome-content__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 7.2rem;
+  margin: 13.5px 0 33.5px;
+  letter-spacing: 1px;
+  color: #35312E;
+}
+.welcome-content__title > * {
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
 }
 
 /*# sourceMappingURL=style.css.map */

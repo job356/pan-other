@@ -1,0 +1,24 @@
+.welcome {
+    padding: 168px 0 170px 333px;
+    background-image: url(/Assets/img/backgrounds/welcome-background.jpg);
+    background-repeat: no-repeat;
+}
+
+.welcome-content__text {
+    @include font($size: 1.6rem, $weight: 400, $height: 1.6rem);
+    text-transform: uppercase;
+    color: $text-color-main;
+    margin: 0%;
+}
+
+.welcome-content__title {
+    @include font($size: 5rem, $weight: 400, $height: 7.2rem);
+    margin: 13.5px 0 33.5px;
+    letter-spacing: 1px;
+    color: $text-color-main;
+    >* {
+        text-decoration-line: underline;
+        text-decoration-thickness: 3px;
+        
+    }
+}
