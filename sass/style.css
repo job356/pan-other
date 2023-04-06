@@ -544,4 +544,37 @@ html {
   padding: 0 179px;
 }
 
+.company-descriprion {
+  padding: 121.2px 120px 112.8px 135px;
+}
+
+.descriprion-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 135px;
+}
+
+.descriprion-content__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 4.1rem;
+  font-weight: 700;
+  line-height: 4.6rem;
+  width: 400px;
+  margin: 0%;
+  text-align: center;
+  letter-spacing: 1.25px;
+  color: #35312E;
+}
+
+.descriprion-content__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  margin: 0%;
+  color: #4F463F;
+}
+
 /*# sourceMappingURL=style.css.map */
