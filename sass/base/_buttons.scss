@@ -22,3 +22,14 @@
     border-radius: 4px;
     background: #FFFFFF;
 }
+
+.contacts-submit__button {
+    @include font($size: 1.2rem, $weight: 700, $height: 1.4rem);
+    text-align: center;
+    text-transform: uppercase;
+    color: $text-color-subtitle;
+
+    padding: 23px 20px;
+    border: none;
+    background: transparent;
+}

@@ -435,6 +435,20 @@ html {
   background: #FFFFFF;
 }
 
+.contacts-submit__button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #4F463F;
+  padding: 23px 20px;
+  border: none;
+  background: transparent;
+}
+
 .color-picker {
   display: flex;
   justify-content: center;
@@ -512,6 +526,11 @@ html {
 .product-advantages__pointer_item-handel {
   top: 411px;
   right: 100px;
+}
+
+.location__icons {
+  display: flex;
+  gap: 24px;
 }
 
 .wrapper {
@@ -872,6 +891,114 @@ html {
   text-align: center;
   letter-spacing: 1px;
   color: #35312E;
+}
+
+.cotacts {
+  padding: 80px 0 115px;
+  background: #6C674D;
+}
+
+.wrapper__contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts-submit__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 5.8rem;
+  margin: 0%;
+  letter-spacing: 0.7px;
+  color: #F5F1E9;
+}
+
+.contacts-submit__subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  margin: 11px 0 62px;
+  color: #FCFAF6;
+}
+
+.button-input-wrapper {
+  width: fit-content;
+  background: #FCFAF6;
+}
+
+.contacts-submit__input {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 5.8rem;
+  letter-spacing: 0.7px;
+  padding: 1px 169px 1px 20px;
+  color: rgba(0, 0, 0, 0.5);
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.navigation {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.navigation-block {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.navigation-shop {
+  padding-right: 28px;
+}
+
+.navigation-company {
+  padding-right: 65.5px;
+}
+
+.navigation-social {
+  padding-right: 78px;
+}
+
+.navigation__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin: 0 0 9px;
+  color: #F5F1E9;
+}
+
+.navigation__item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3.1rem;
+  margin: 0%;
+  text-decoration: none;
+  color: rgba(245, 241, 233, 0.6);
+}
+
+.location__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin: 0 0 9px;
+  color: #F5F1E9;
 }
 
 /*# sourceMappingURL=style.css.map */
