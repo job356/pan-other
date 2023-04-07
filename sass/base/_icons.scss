@@ -1,3 +1,17 @@
+.color-picker {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 45.2px;
+}
+
+.color-picker_product {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 25px;
+}
+
 .color-picker__item {
     width: 15px;
     height: 15px;
