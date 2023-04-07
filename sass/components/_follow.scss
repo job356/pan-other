@@ -1,0 +1,36 @@
+.follow {
+    background-image: url(/Assets/img/backgrounds/follow-left-side-bg.jpg), url(/Assets/img/backgrounds/follow-right-side-bg.jpg);
+    background-position: left, right;
+    background-repeat: no-repeat;
+}
+
+.layout-1-column {
+    display: flex;
+    justify-content: center;
+}
+
+.follow-content {
+    display: flex;
+    flex-basis: 480px;
+    flex-direction: column;
+    align-items: center;
+    padding: 109px 15px;
+    background: #F5F1E9;
+}
+
+.follow-content__hashgtag {
+    @include font($size: 1.1rem, $weight: 400, $height: 2rem);
+    margin: 0%;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $text-color-main;
+}
+
+.follow-content__title {
+    @include font($size: 2.4rem, $weight: 700, $height: 4.6rem);
+    margin: 33px 0 61px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: $text-color-main;
+}

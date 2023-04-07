@@ -8,3 +8,17 @@
     border-radius: 2px;
     border: none;
 }
+
+.button__follow {
+    @include font($size: 1.2rem, $weight: 700, $height: 1.2rem);
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: $text-color-subtitle;
+
+    padding: 19px 41px 23px;
+    
+    border: 1px solid rgba(170, 160, 152, 0.29);
+    border-radius: 4px;
+    background: #FFFFFF;
+}
