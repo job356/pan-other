@@ -1,0 +1,22 @@
+.footer {
+    background: $bg-color-light-swamp;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer__text {
+    @include font($size: 1.4rem, $weight: 400, $height: 2.7rem);
+    text-decoration: none;
+    margin: 0%;
+    color: rgba(252, 250, 246, 0.5);
+}
+
+.footer__copirights {
+    display: flex;
+    gap: 30px;
+}
