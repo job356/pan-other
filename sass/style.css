@@ -641,7 +641,7 @@ html {
 
 .welcome {
   padding: 168px 0 170px 333px;
-  background-image: url(/Assets/img/backgrounds/welcome-background.jpg);
+  background-image: url(../Assets/img/backgrounds/welcome-background.jpg);
   background-repeat: no-repeat;
 }
 
@@ -753,7 +753,7 @@ html {
   width: 721px;
   display: flex;
   justify-content: space-between;
-  background-image: url(/Assets/img/backgrounds/product-preview.png);
+  background-image: url(../Assets/img/backgrounds/product-preview.png);
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -840,7 +840,7 @@ html {
 }
 
 .product__picture {
-  background-image: url(/Assets/img/backgrounds/Oval.png);
+  background-image: url(../Assets/img/backgrounds/Oval.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
@@ -885,7 +885,7 @@ html {
 }
 
 .follow {
-  background-image: url(/Assets/img/backgrounds/follow-left-side-bg.jpg), url(/Assets/img/backgrounds/follow-right-side-bg.jpg);
+  background-image: url(../Assets/img/backgrounds/follow-left-side-bg.jpg), url(../Assets/img/backgrounds/follow-right-side-bg.jpg);
   background-position: left, right;
   background-repeat: no-repeat;
 }
