@@ -1,0 +1,64 @@
+.product-preview {
+    padding: 75px 0 140px;
+    background: $bg-color-light-beige;
+}
+
+.product-preview__title {
+    @include font($size: 3.5rem, $weight: 400, $height: 4.8rem);
+    text-align: center;
+    color: $text-color-main;
+    margin: 0 0 52.8px;
+}
+
+.product-advantages-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.product-advantages {
+    position: relative;
+    width: 721px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(/Assets/img/backgrounds/product-preview.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.product-advantages__left-side, .product-advantages__right-side {
+    width: 207px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-advantages__text {
+    @include font($size: 1.2rem, $weight:400, $height: 1.5rem);
+    text-align: center;
+    text-transform: uppercase;
+    color: $text-color-description;
+    &_left-side-top {
+        align-self: center;
+        margin: 83px 0 0;
+    }
+    &_left-side-middle {
+        align-self: flex-end;
+        margin: 247px 0 84px;
+    }
+    &_left-side-bottom {
+        align-self: center;
+        margin:0 0 34px;
+    }
+    &_right-side-top {
+        align-self: center;
+        margin: 36px 0 0;
+    }
+    &_right-side-middle {
+        align-self: center;
+        margin: 217px 0 128px;
+    }
+    &_right-side-bottom {
+        align-self: flex-end;
+        margin: 0 0 93.42px;
+    }
+}
+

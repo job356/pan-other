@@ -1,0 +1,38 @@
+.cotacts {
+    padding: 80px 0 115px;
+    background: $bg-color-medium-swamp;
+}
+
+.wrapper__contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-submit__title {
+    @include font($size: 2.3rem, $weight: 700, $height: 5.8rem);
+    margin: 0%;
+    letter-spacing: 0.7px;
+    color: $text-color-light-title;
+}
+
+.contacts-submit__subtitle {
+    @include font($size: 1.4rem, $weight: 400, $height: 2.4rem);
+    margin: 11px 0 62px;
+    color: #FCFAF6;
+}
+
+.button-input-wrapper {
+    width: fit-content;
+    background: #FCFAF6;
+}
+
+.contacts-submit__input {
+    @include font($size:1.3rem, $weight: 700, $height: 5.8rem);
+    letter-spacing: 0.7px;
+
+    padding: 1px 169px 1px 20px;
+    color: rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: none;
+    background: transparent;
+}

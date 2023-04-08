@@ -1,0 +1,25 @@
+@import "base/normilize";
+
+//abstracts
+@import "abstracts/constans";
+@import "abstracts/mixins";
+
+//base
+@import "base/base";
+@import "base/buttons";
+@import "base/icons";
+
+//layout
+@import "layout/wrapper";
+@import "layout/header";
+@import "layout/footer";
+
+//components
+@import "components/welcome";
+@import "components/partners";
+@import "components/company-description";
+@import "components/product-preview";
+@import "components/products";
+@import "components/follow";
+@import "components/contacts";
+@import "components/navigation";

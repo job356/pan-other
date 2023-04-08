@@ -1,0 +1,44 @@
+.button__welcome {
+    @include font($size: 1.2rem, $weight: 700, $height: 2rem);
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    padding: 20px 58px;
+    background: #D37657;
+    border-radius: 2px;
+    border: none;
+}
+
+.button__follow {
+    @include font($size: 1.2rem, $weight: 700, $height: 1.2rem);
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: $text-color-subtitle;
+
+    padding: 19px 41px 23px;
+    
+    border: 1px solid rgba(170, 160, 152, 0.29);
+    border-radius: 4px;
+    background: #FFFFFF;
+}
+
+.contacts-submit__button {
+    @include font($size: 1.2rem, $weight: 700, $height: 1.4rem);
+    text-align: center;
+    text-transform: uppercase;
+    color: $text-color-subtitle;
+
+    padding: 23px 20px;
+    border: none;
+    background: transparent;
+}
+
+.footer-button {
+    display: flex;
+    align-items: center;
+    padding: 0 33px;
+    border-radius: 5px;
+    border: none;
+    background: #FCFAF6;
+}

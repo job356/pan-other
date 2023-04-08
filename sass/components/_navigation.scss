@@ -1,0 +1,45 @@
+.navigation {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.navigation-block {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.navigation-shop {
+    padding-right: 28px;
+}
+
+.navigation-company {
+    padding-right: 65.5px;
+}
+
+.navigation-social {
+    padding-right: 78px;
+}
+
+.navigation__title {
+    @include font($size: 1.2rem, $weight: 700, $height: 2rem);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin: 0 0 9px;
+    color: $text-color-light-title;
+}
+
+.navigation__item {
+    @include font($size: 1.6rem, $weight: 400, $height: 3.1rem);
+    margin: 0%;
+    text-decoration: none;
+    color: $text-color-light;
+}
+
+.location__title {
+    @include font($size: 1.2rem, $weight: 700, $height: 2rem);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin: 0 0 9px;
+    color: $text-color-light-title;
+}
